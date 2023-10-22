@@ -1,4 +1,3 @@
-from operations import *
 
 def game():
     score = 0
