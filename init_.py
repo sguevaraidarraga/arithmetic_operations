@@ -26,7 +26,7 @@ def game():
             else:
                 print('Incorrect')
          if option == 2:
-            result = add(num_1, num_2)
+            result = resta(num_1, num_2)
             if result == answer:
                 score += 1
                 print('Correct!!')
