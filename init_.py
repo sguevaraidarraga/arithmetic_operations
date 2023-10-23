@@ -1,4 +1,4 @@
-from operations import add
+from operations import add, resta
 
 def game():
     score = 0
@@ -19,6 +19,13 @@ def game():
         answer = int(input('Enter you answer: '))
 
         if option == 1:
+            result = add(num_1, num_2)
+            if result == answer:
+                score += 1
+                print('Correct!!')
+            else:
+                print('Incorrect')
+         if option == 2:
             result = add(num_1, num_2)
             if result == answer:
                 score += 1
