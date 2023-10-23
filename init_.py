@@ -1,4 +1,4 @@
-from operations import add, resta, multiplicacion, division
+from operations import add, resta, multiplicacion, division, potencia
 
 def game():
     score = 0
@@ -41,6 +41,13 @@ def game():
                 print('Incorrect')
         if option == 4:
             result = division(num_1, num_2)
+            if result == answer:
+                score += 1
+                print('Correct!!')
+            else:
+                print('Incorrect')
+        if option == 5:
+            result = potencia(num_1, num_2)
             if result == answer:
                 score += 1
                 print('Correct!!')
