@@ -6,7 +6,7 @@
 *.swp
 target/
 .settings
-.ckasspath
+.classpath
 .project
 build/*
 
