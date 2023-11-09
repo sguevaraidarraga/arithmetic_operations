@@ -1,4 +1,4 @@
-from operations import add, resta, multiplicacion, division, potencia, modulo
+from operationss import add, resta, multiplicacion, division, potencia, modulo
 
 def game():
     score = 0
